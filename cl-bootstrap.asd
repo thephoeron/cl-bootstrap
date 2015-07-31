@@ -20,6 +20,7 @@
                :cl-css
                :parenscript)
   :components ((:file "packages")
+               (:file "grid")
                (:file "cl-bootstrap")))
 
 ;; EOF
