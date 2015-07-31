@@ -10,7 +10,12 @@
         :cl-css
         :parenscript)
   (:shadowing-import-from :parenscript #:%)
-  (:export #:*cl-bootstrap-version*))
+  (:export #:*cl-bootstrap-version*
+           ;; grid
+           #:container
+           #:row
+           #:col
+           #:grid))
 
 (in-package :cl-bootstrap)
 
